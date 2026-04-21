@@ -40,12 +40,14 @@ public class PayrollCalc {
                 String newEmployee = ("ID: " + employeeId + ", Name: " + employeeName + ", Gross Pay: " + grossPay);
 
                 bufferedWriter.write(newEmployee);
+                bufferedWriter.newLine();
 
-                bufferedWriter.close();
+
 
                 // System.out.println("ID: " + employeeId + ", Name: " + employeeName + ", Gross Pay: " + grossPay);
             }
             bufferedReader.close();
+            bufferedWriter.close();
 
 
 
